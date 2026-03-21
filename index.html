@@ -97,6 +97,42 @@
       </div>
 
     </div>
+    <script>
+function kopyala(text) {
+  navigator.clipboard.writeText(text);
+  alert("IBAN kopyalandı");
+}
+</script>
+
+<div style="margin-top:18px; padding:14px; border:1px solid rgba(212,175,55,.35); border-radius:16px; background:rgba(255,255,255,.04); text-align:left;">
+
+  <div style="text-align:center; font-weight:700; margin-bottom:10px;">💳 IBAN Bilgileri</div>
+
+  <div style="margin-bottom:10px;">
+    <div style="font-size:13px; opacity:.8;">GARANTİ BANKASI</div>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span>TR58 0006 2001 4630 0006 6467 56</span>
+      <button onclick="kopyala('TR580006200146300006646756')" style="padding:6px 10px; border-radius:8px; border:none; background:#D4AF37; color:#000; font-weight:600;">Kopyala</button>
+    </div>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <div style="font-size:13px; opacity:.8;">YAPI KREDİ BANKASI</div>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span>TR47 0006 7010 0000 0001 1922 298</span>
+      <button onclick="kopyala('TR470006701000000011922298')" style="padding:6px 10px; border-radius:8px; border:none; background:#D4AF37; color:#000; font-weight:600;">Kopyala</button>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:13px; opacity:.8;">İŞ BANKASI</div>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span>TR83 0006 4000 0001 4505 0944 829</span>
+      <button onclick="kopyala('TR830006400000145050944829')" style="padding:6px 10px; border-radius:8px; border:none; background:#D4AF37; color:#000; font-weight:600;">Kopyala</button>
+    </div>
+  </div>
+
+</div>
 
     <div class="foot">CED dijital kart • tek tık, tek iz.</div>
   </div>
